@@ -13,3 +13,6 @@ register = {'Michael':'yes',
         }
 
 print(register_check(register))
+
+# --------------------- Second Question -------------------------
+
