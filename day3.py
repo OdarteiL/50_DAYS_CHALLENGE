@@ -16,10 +16,6 @@
 
 # --------------------- Second Question -------------------------
 
-
-
-
-
 def lowercaseNames(a):
     new_names = list()
 
