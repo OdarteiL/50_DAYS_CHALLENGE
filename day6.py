@@ -1,12 +1,12 @@
-# def user_name():
-#     email_add = input("Please input your email address: ")
-#     splitted_email = email_add.split("@")
-#     sliced_email = splitted_email[ :1]
+def user_name():
+    email_add = input("Please input your email address: ")
+    splitted_email = email_add.split("@")
+    sliced_email = splitted_email[ :1]
 
-#     for userName in sliced_email:
-#         return (f"Your user name is: {userName}")  
+    for userName in sliced_email:
+        return (f"Your user name is: {userName}")  
     
-# print(user_name())
+print(user_name())
 
 #-----------------Second Question ----------------------------
 
