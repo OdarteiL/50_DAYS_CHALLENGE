@@ -2,11 +2,12 @@ import math
 
 def divide_or_square (a):
     if a % 5 == 0:
-        print(math.sqrt(a))
+        return(math.sqrt(a))
     else:
-        print(a) 
+        x = a %  5
+        return(x) 
 
-divide_or_square(11)
+print(divide_or_square(21))
 
 
 # ---------------- Second Question ---------------------
@@ -19,13 +20,8 @@ def longest_value(a):
     max_length = 0
 
     max_value = max(new_value, key=len)
-    print(max_value)
+    return(max_value)
 
-    # for value in new_value:
-    #     if len(value) > max_length:
-    #         max_length = len(value)
-    #         max_value = value
-    # print(max_value)
 
 name = {"Ghana":"Accra", 
         "Algeria":"Algiers",  
@@ -33,7 +29,7 @@ name = {"Ghana":"Accra",
         "Angola":"Luanda"
     }
 
-longest_value(name)
+print(longest_value(name))
 
 
 
