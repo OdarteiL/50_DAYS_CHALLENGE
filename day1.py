@@ -16,9 +16,6 @@ def longest_value(a):
     long_val = a.values()
     new_value = list(long_val)
 
-    max_value = None
-    max_length = 0
-
     max_value = max(new_value, key=len)
     return(max_value)
 
